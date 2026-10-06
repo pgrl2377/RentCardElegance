@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="hero">
+
+    <header class="topbar">
+      <nav class="nav nav--left" aria-label="Principal">
+        <a href="index.html">Inicio</a>
+        <a href="reservar.html">Reservar Auto</a>
+        <a href="modelos.html">Modelos</a>
+        
+      </nav>
+
+      <a class="brand" href="/" aria-label="Car Rent, inicio">
+        
+        <img class="brand__car" src="img/logo-car-rent.png" alt="logo" width="200">
+       
+      </a>
+
+      <nav class="nav nav--right" aria-label="Contacto">
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </header>
+     <section class="section " id="contacto" aria-labelledby="contacto-titulo">
+    <div class="wrap contact">
+      <div class="contact__info">
+        <h2 class="section__title" id="contacto-titulo">Contacto</h2>
+        <p class="section__lead">Escribinos y te respondemos a la brevedad. Atendemos las 24 horas.</p>
+        <ul class="info">
+          <li><strong>Teléfono</strong><a href="tel:+541100000000">+54 11 0000-0000</a></li>
+          <li><strong>Email</strong><a href="mailto:info@carrent.com">info@carrent.com</a></li>
+          <li><strong>Dirección</strong>Buenos Aires, Argentina</li>
+        </ul>
+      </div>
+ 
+      <form class="contact__form" action="#" method="post">
+        <div class="cf cf--half">
+          <label for="nombre">Nombre y apellido</label>
+          <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+        </div>
+        <div class="cf cf--half">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="cf cf--half">
+          <label for="telefono">Teléfono</label>
+          <input id="telefono" name="telefono" type="tel" autocomplete="tel">
+        </div>
+        <div class="cf cf--half">
+          <label for="asunto">Motivo de la consulta</label>
+          <select id="asunto" name="asunto">
+            <option>Reservar un auto</option>
+            <option>Promociones</option>
+            <option>Modificar una reserva</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="cf">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        </div>
+        <label class="check">
+          <input type="checkbox" name="privacidad" required>
+          <span>Acepto la <a href="#privacidad">política de privacidad</a></span>
+        </label>
+        <button class="btn btn--solid" type="submit">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+    
+  </main>
+   <footer class="footer">
+    <div class="footer__grid">
+      <div>
+        <a class="brand" href="/" aria-label="Car Rent, inicio">
+          <span class="brand__name">Car Rent</span>
+          <span class="brand__tag">Drive Your Journey</span>
+        </a>
+        <p class="footer__about">Alquiler de autos fácil, rápido y seguro, con atención personalizada las 24 horas.</p>
+      </div>
+ 
+      <nav aria-label="Navegación">
+        <h2>Navegación</h2>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>  
+          <li><a href="reservar.html">Reservar Auto</a></li>
+          <li><a href="modelos.html">Modelos</a></li>
+         <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+ 
+      <div>
+        <h2>Contacto</h2>
+        <ul>
+          <li>Atención 24/7</li>
+          <li><a href="tel:+541100000000">+54 11 0000-0000</a></li>
+          <li><a href="mailto:info@carrent.com">info@carrent.com</a></li>
+        </ul>
+      </div>
+ 
+      <nav aria-label="Legal">
+        <h2>Información</h2>
+        <ul>
+          <li><a href="#terminos">Términos y condiciones</a></li>
+          <li><a href="#privacidad">Política de privacidad</a></li>
+          <li><a href="#ayuda">Preguntas frecuentes</a></li>
+        </ul>
+      </nav>
+    </div>
+ 
+    <div class="footer__legal">
+      <span>© 2026 Car Rent. Todos los derechos reservados.</span>
+      <span>Buenos Aires, Argentina</span>
+    </div>
+  </footer>
+
+
+</body>
+</html>
